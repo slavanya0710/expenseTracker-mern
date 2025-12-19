@@ -1,12 +1,87 @@
-backend/node_modules
-frontend/node_modules
-node_modules
+# -----------------------------
+#  GENERAL
+# -----------------------------
+
+# Dependency directories
+node_modules/
+frontend/node_modules/
+backend/node_modules/
+
+# Environment variables
 .env
-.env.local
-.env.development.local  
-.env.test.local
-.env.production.local   
-backend/node_modules
 backend/.env
 frontend/.env
-frontend/.env.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS/System files
+.DS_Store
+Thumbs.db
+
+# Editor folders
+.vscode/
+.idea/
+
+# Build / Production
+dist/
+build/
+frontend/dist/
+backend/dist/
+frontend/build/
+backend/build/
+
+# Cache files
+.cache/
+.next/
+*.pid
+*.seed
+*.pid.lock
+
+# Optional backups & archives
+*.bak
+*.tmp
+*.swp
+*.swo
+*.zip
+*.tar
+*.gz
+
+# React specific
+frontend/.eslintcache
+
+# Lock files
+*.lock
+
+# Storybook
+out/
+
+# -----------------------------
+#  NODE SPECIFIC
+# -----------------------------
+coverage/
+lib-cov/
+logs/
+*.log
+*.csv
+*.dat
+*.out
+*.patch
+*.pot
+
+# PM2 logs
+pids/
+logs/
+
+# TypeScript build
+*.tsbuildinfo
+
+# -----------------------------
+#  BACKEND SECURITY
+# -----------------------------
+/backend/uploads
+
+
